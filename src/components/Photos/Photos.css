@@ -18,20 +18,6 @@
   margin-top: 56px !important;
 }
 
-.autocompleteResults {
-  position: absolute;
-  top: 50px;
-  z-index: 1;
-  width: 300px;
-  cursor: pointer;
-  margin-top: 40px;
-}
-
-.searchBox {
-  flex-direction: column;
-  align-items: stretch !important;
-}
-
 .alignCenter {
   display: flex;
   justify-content: center;
