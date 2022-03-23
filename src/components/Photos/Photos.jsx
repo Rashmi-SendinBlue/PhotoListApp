@@ -76,7 +76,6 @@ const Photos = () => {
 
   //use debounce function to add a delay of 500ms before calling the api
   // eslint-disable-next-line react-hooks/exhaustive-deps
-
   const optimisedSearch = useCallback(
     debounce((text) => {
       triggerSearchApi(text);
